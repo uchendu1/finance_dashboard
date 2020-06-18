@@ -34,7 +34,7 @@ img {
 .main{
     display: flex;
     background-color: black;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     flex-direction: row;
     justify-content: center;
     /* padding: 0; */
@@ -50,4 +50,25 @@ img {
   font-size: 30px;
   padding: 0;
 
+} 
+@media  (max-width: 465px){
+.main{
+    flex-wrap: wrap;
+    }
+    .main > div {
+        width: 100%;
+        margin: 5px;
+        font-size: 15px;
+        line-height: 30px;
+
+    }
+    /* img{
+width: 50%;
+height: 50%; */
+    
+.tube > div {
+    line-height: 20px;
+  font-size: 15px;
+  width: 100%;
+}
 }
